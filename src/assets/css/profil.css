@@ -1,7 +1,4 @@
-body {
-  background-color: #202020;
-  min-height: 100vh;
-}
+
 
 main {
   display: flex;
@@ -19,21 +16,7 @@ header {
   width: 100vw;
   padding: 5% 0;
 }
-/* nav {
-  position: fixed;
-  bottom: 0;
-  padding: 2% 0;
-  background-color: #323232;
-  display: flex;
-  width: 100vw;
-  justify-content: space-around;
-} */
 
-h1,
-p {
-  color: white;
-  font-size: large;
-}
 .content {
   margin: 15% 0 8%;
   display: flex;
