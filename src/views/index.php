@@ -12,26 +12,30 @@
     <?php endif; ?>
 
     <a class="button-card" href="groupDepense">
-         <strong> City-trip </strong><br/> Un petit exemple de compte
-    </a>
+        <div class="button-text">
+            <strong>City-trip<br> Un petit exemple de compte</strong>
+            <div class="button-icon">></div>
+        </div>
         
-     <div class="bottom-nav">
-        <div class="nav-item active">
+    </a>
+
+    <div class="bottom-nav">
+        <a href="/" class="nav-item active">
             <div class="nav-icon">tt</div>
             <div class="nav-label">tricounts</div>
-        </div>
-        <div class="nav-item">
+        </a>
+        <a href="#" class="nav-item">
             <div class="nav-icon">$</div>
             <div class="nav-label">Demandes de paiement</div>
-        </div>
-        <div class="nav-item">
+        </a>
+        <a href="#" class="nav-item">
             <div class="nav-icon">⋮⋮</div>
             <div class="nav-label">Carte gratuite</div>
-        </div>
-        <div class="nav-item">
+        </a>
+        <a href="profil" class="nav-item">
             <div class="nav-icon">👤</div>
             <div class="nav-label">Profil</div>
-        </div>
+        </a>
     </div>
 </div>
 
