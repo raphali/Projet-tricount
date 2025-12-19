@@ -32,7 +32,7 @@
         </div>
         <div class="depenseInfo">
             <div class="depense-creator">
-                <p>Payé par</p>
+                <p>Reçu par</p>
                 <select name="creator" class="creator-input">
                     <option value="0" selected>Alex</option>
                     <option value="1">Bruno</option>
@@ -86,7 +86,7 @@
                 <p class="contributor-amount">4,00€</p>
             </div>
         </div>
-        <button type="submit" value="save" class="save" >Sauvegarder</button>
+        <input type="submit" value="Sauvegarder" class="save">
     </form>
 </div>
 
@@ -96,6 +96,6 @@
 
 <?php render("default", true, [
     "title" => "Tricount",
-    "css" => "newDepense",
+    "css" => "newRevenu",
     "content" => ob_get_clean()
 ]); ?>

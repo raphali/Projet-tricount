@@ -1,14 +1,15 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
   background-color: #202020;
-  min-height: 100vh;
 }
 
-p, label {
+p,
+label {
   color: white;
   font-size: large;
 }

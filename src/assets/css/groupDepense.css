@@ -30,7 +30,7 @@ header img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   width: 90vw;
-  margin-top: 2%;
+  margin-top: 4%;
   border: 2px solid #ffffff;
   border-radius: 20px;
 }
@@ -49,10 +49,26 @@ header img {
   border-top: 2px;
   border-bottom: 2px;
 }
+.groupNav-item:first-child:hover {
+  background-color: white;
+  border-radius: 10px 0 0 10px;
+  color: black;
+}
+
+.groupNav-center:hover {
+  background-color: white;
+  border-radius: 0 0 0 0;
+  color: black;
+}
+.groupNav-item:last-child:hover {
+  background-color: white;
+  border-radius: 0 10px 10px 0;
+  color: black;
+}
 .depense {
   display: flex;
   width: 80vw;
-  margin-top: 2%;
+  margin-top: 4%;
   justify-content: space-around;
 }
 .depense-item {
@@ -61,25 +77,25 @@ header img {
   align-items: center;
 }
 .transaction {
-  margin-top: 2%;
+  margin-top: 4%;
   width: 90vw;
 }
 .transaction-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #424242;
-  padding: 2% 0;
-  margin: 2% 0;
+  background-color: #303030;
+  padding: 4% 0;
+  margin: 4% 0;
   border-radius: 20px;
 }
 .transaction-item-left {
   display: flex;
   flex-direction: row;
-  margin-left: 2%;
+  margin-left: 4%;
 }
 .transaction-item-right {
-  margin-right: 2%;
+  margin-right: 4%;
 }
 .transaction-info {
   display: flex;
