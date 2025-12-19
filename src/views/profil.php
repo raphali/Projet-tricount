@@ -39,20 +39,26 @@
     </div>
 </div>
 
-<nav>
-    <a href="/" class="nav-item"><img src="" alt="">
-        <p>tricounts</p>
+
+<div class="bottom-nav">
+    <a href="/" class="nav-item active">
+        <div class="nav-icon">tt</div>
+        <div class="nav-label">tricounts</div>
     </a>
-    <a href="#" class="nav-item"><img src="" alt="">
-        <p>Demandes de paiment</p>
+    <a href="#" class="nav-item">
+        <div class="nav-icon">$</div>
+        <div class="nav-label">Demandes de paiement</div>
     </a>
-    <a href="#" class="nav-item"><img src="" alt="">
-        <p>Carte gratuite</p>
+    <a href="#" class="nav-item">
+        <div class="nav-icon">⋮⋮</div>
+        <div class="nav-label">Carte gratuite</div>
     </a>
-    <a href="profil" class="nav-item"><img src="" alt="">
-        <p>Profil</p>
+    <a href="profil" class="nav-item">
+        <div class="nav-icon">👤</div>
+        <div class="nav-label">Profil</div>
     </a>
-</nav>
+</div>
+
 
 
 

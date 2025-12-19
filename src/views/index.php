@@ -12,11 +12,7 @@
     <?php endif; ?>
 
     <a class="button-card" href="groupDepense">
-        <div class="button-text">
-            <strong>City-trip<br> Un petit exemple de compte</strong>
-            <div class="button-icon">></div>
-        </div>
-        
+        <strong> City-trip </strong><br /> Un petit exemple de compte
     </a>
 
     <div class="bottom-nav">
