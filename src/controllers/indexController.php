@@ -1,2 +1,2 @@
 <?php
-render("index", false);
+render("index", false) ?>
