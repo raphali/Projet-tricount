@@ -86,7 +86,7 @@
                 <p class="contributor-amount">4,00€</p>
             </div>
         </div>
-        <input type="submit" value="Sauvegarder" class="save">
+        <button type="submit" value="save" class="save" >Sauvegarder</button>
     </form>
 </div>
 

@@ -8,12 +8,6 @@ header {
   width: 100vw;
   background-color: #202020;
 }
-.header-right {
-  display: flex;
-  width: 20%;
-  justify-content: space-between;
-  margin-right: 2%;
-}
 header > a {
   margin-left: 2%;
 }
