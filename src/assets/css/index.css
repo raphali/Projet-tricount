@@ -46,6 +46,7 @@ body {
     align-items: center;
     gap: 6px;
     cursor: pointer;
+    text-decoration: none;
     transition: all 0.3s ease;
     opacity: 0.6;
     color: white;
